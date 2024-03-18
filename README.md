@@ -7,7 +7,7 @@
 <body>
   <h1>README</h1>
 
-  <p>Este repositório contém o código-fonte do projeto XYZ, que consiste em uma aplicação web desenvolvida utilizando Node.js para o back-end e React para o front-end. O projeto utiliza diversos pacotes e tecnologias para oferecer uma experiência segura e eficiente aos usuários.</p>
+  <p>Este repositório contém o código-fonte do projeto Adote Pet, que consiste em uma aplicação web desenvolvida utilizando Node.js no back-end e React para o front-end. O sistema possibilita a adoção de Pets, o usuário faz o cadastro para solicitar a adoção ou cadastrar pet's no sistema, assim oustros usuários podem adotar outros pet's. O projeto utiliza diversos pacotes e tecnologias para oferecer uma experiência segura e eficiente aos usuários.</p>
 
   <h2>Tecnologias Utilizadas</h2>
 
@@ -28,7 +28,7 @@
   <p>O banco de dados utilizado é o MongoDB, um banco de dados NoSQL que armazena dados em documentos no formato BSON (Binary JSON). Ao contrário dos bancos de dados relacionais tradicionais, o MongoDB oferece uma estrutura flexível e hierárquica, não requerendo um esquema predefinido.</p>
 
   <h2>Segurança</h2>
-  <p>O sistema conta com diversas verificações de dados e de segurança. Os dados são verificados pelo token do usuário, que é criptografado pelo sistema. Isso garante que, ao alterar o ID do usuário, não seja possível enviar ou alterar dados utilizando o ID.</p>
+  <p>O sistema conta com diversas verificações de dados e de segurança. Os dados são verificados pelo token do usuário, que é criptografado pelo sistema. Isso garante que, ao alterar o ID do usuário, não seja possível enviar ou alterar dados utilizando o ID. Algumas verificações como: Um usuário só consegue editar e remover os pets que ele cadastrou, também não é possivel que o usuário adote o pet que ele memso cadastrou</p>
 
   <h2>Como Executar o Projeto</h2>
   <ol>
