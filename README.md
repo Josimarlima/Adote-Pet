@@ -47,6 +47,3 @@
   <p>Este projeto está licenciado sob a <a href="LICENSE">Licença MIT</a>.</p>
 </body>
 </html>
-```
-
-Basta copiar esse código HTML e salvá-lo em um arquivo com a extensão `.html`, e você terá o README formatado em HTML para o seu projeto no GitHub.
